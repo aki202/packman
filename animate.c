@@ -7,7 +7,7 @@ int main(void) {
   for(int i = 0; i < 50; ++i) {
     img_clear();
     img_fillcircle(c1, 300 - 10*i, 100, 40);
-    img_filltriangle(c2, 300-10*i, 200, 320-10*i, 100, 300-10*i, 120);
+    img_filltriangle(c2, 250-10*i, 150, 250-10*i, 80, 300-10*i, 100);
     img_write();
   }
 }
